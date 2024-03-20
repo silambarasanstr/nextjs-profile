@@ -11,7 +11,7 @@ const NavBar = () => {
   return (
     <div>
       <div className="flex flex-row items-center justify-between px-5 py-5 w-full ">
-        <Link href="/" className="">
+        <Link href="/" className="text-white">
           MEET ME 
         </Link>
 
@@ -39,19 +39,19 @@ const MenuItem = ({ item }: { item: SideNavItem }) => {
         <>
           <button
             onClick={toggleSubMenu}
-            className={`flex gap-3 flex-row items-center p-2 rounded-lg hover-bg-zinc-100 w-full justify-between hover:bg-zinc-100 ${
+            className={`flex gap-3 flex-row items-center p-2 rounded-lg hover-bg-zinc-100 w-full justify-between hover:text-[#000] hover:bg-[#ffffff5e] ${
               pathname.includes(item.path) ? "bg-zinc-100 " : ""
             }`}
           >
-            <div className="flex flex-row space-x-4 items-center text-[#555555]">
+            <div className="flex flex-row space-x-4 items-center text-white hover:text-[#000]">
               {item.icon}
-              <span className="flex text-[15px] text-[#555555]">
+              <span className="flex text-[15px] text-white">
                 {item.title}
               </span>
             </div>
 
             <div className={`${subMenuOpen ? "rotate-180 " : ""} flex`}>
-              <FaChevronDown size={13} className="text-[#555555]" />
+              <FaChevronDown size={13} className="text-white" />
             </div>
           </button>
 
@@ -66,7 +66,7 @@ const MenuItem = ({ item }: { item: SideNavItem }) => {
                       subItem.path === pathname ? "font-bold " : ""
                     }`}
                   >
-                    <span className="text-[15px] ">{subItem.title}</span>
+                    <span className="text-[15px]  ">{subItem.title}</span>
                   </Link>
                 );
               })}
@@ -76,7 +76,7 @@ const MenuItem = ({ item }: { item: SideNavItem }) => {
       ) : (
         <Link
           href={item.path}
-          className={`  flex flex-row space-x-4 text-[#555555] items-center p-2 rounded-lg hover:bg-zinc-100 ${
+          className={`  flex flex-row space-x-4 text-white items-center p-2 rounded-lg hover:text-[#000] hover:bg-[#ffffff5e] ${
             item.path === pathname ? "rounded-l-3xl bg-zinc-100 " : ""
           } `}
         >
