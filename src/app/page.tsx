@@ -1,9 +1,10 @@
+import NavBar from "./components/side-nav";
 
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-[#ccc]">
-       silambarsan
+    <main className="min-h-screen items-center justify-between ">
+       <NavBar/>
     </main>
   );
 }
