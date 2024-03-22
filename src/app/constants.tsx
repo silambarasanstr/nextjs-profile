@@ -31,15 +31,6 @@ export const SIDENAV_ITEMS: SideNavItem[] = [
     icon: <MdSpaceDashboard width="24" height="24" />,
   },
   
-  {
-    title: "Roles",
-    path: "/roles-and-permissions",
-    icon: <MdSpaceDashboard width="24" height="24" />,
-    submenu: true,
-    subMenuItems: [
-      { title: "Account", path: "/settings/account" },
-      { title: "Privacy", path: "/settings/Admin" },
-    ],
-  },
+ 
   
 ];
