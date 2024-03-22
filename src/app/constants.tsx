@@ -2,7 +2,6 @@ import { MdSpaceDashboard } from "react-icons/md";
 
 import { SideNavItem } from "./types";
 
-
 export const SIDENAV_ITEMS: SideNavItem[] = [
   {
     title: "Home",
@@ -30,7 +29,4 @@ export const SIDENAV_ITEMS: SideNavItem[] = [
     path: "/#contact",
     icon: <MdSpaceDashboard width="24" height="24" />,
   },
-  
- 
-  
 ];

@@ -11,11 +11,11 @@ export default function Home() {
     <main className="min-h-screen items-center justify-between ">
       <div className="bg-primary">
         <NavBar />
-        {/* <BannerPage />
+        <BannerPage />
         <Aboutpage />
         <Projectspages />
         <ResumePages />
-        <ContactPages /> */}
+        <ContactPages />
       </div>
     </main>
   );

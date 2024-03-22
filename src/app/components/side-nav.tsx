@@ -12,7 +12,7 @@ const NavBar = () => {
     <div className="sticky top-0 w-full bg-[#00000036]">
       <div className="flex flex-row items-center justify-between px-5 py-5 w-full ">
         <Link href="/" className="text-white">
-          MEET ME 
+          MEET ME
         </Link>
 
         <div className="flex">
@@ -45,9 +45,7 @@ const MenuItem = ({ item }: { item: SideNavItem }) => {
           >
             <div className="flex flex-row space-x-4 items-center text-white hover:text-[#000]">
               {item.icon}
-              <span className="flex text-[15px] text-white">
-                {item.title}
-              </span>
+              <span className="flex text-[15px] text-white">{item.title}</span>
             </div>
 
             <div className={`${subMenuOpen ? "rotate-180 " : ""} flex`}>
