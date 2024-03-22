@@ -9,7 +9,7 @@ import { usePathname } from "next/navigation";
 
 const NavBar = () => {
   return (
-    <div className="sticky top-0 w-full bg-[#00000036]">
+    <div className="sticky top-0 w-full bg-[#00000036] z-50">
       <div className="flex flex-row items-center justify-between px-5 py-5 w-full ">
         <Link href="/" className="text-white">
           MEET ME
