@@ -5,7 +5,7 @@ import ResumeImg from '@/app/assets/resume.jpg';
 const ResumePages = () => {
 
     const openPdf = () => {
-        window.open('https://github.com/projects', '_blank');
+        window.open('https://github.com/silambarasanstr/nextjs-profile/blob/main/src/app/assets/SILAMBARASAN_new.pdf', '_blank');
       };
 
   return (
