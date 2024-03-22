@@ -8,16 +8,19 @@ const Projectspages = () => {
   const config = {
     projects: [
       {
+        id: 1,
         image: Poorvika,
         description: "A Ecommerce Website. Built with MERN Stack.",
         link: "https://www.poorvika.com/privacy-policy",
       },
       {
+        id: 2,
         image: Biriyani,
         description: "Static Website.Built with HTML,CSS,JAVASCRIPT and PHP",
         link: "https://www.sshyderabadbiryani.com/about.php",
       },
       {
+        id: 3,
         image: Geams,
         description: "Static Website.Built with HTML,CSS,JAVASCRIPT and PHP",
         link: "https://www.jaipurgemsnjewel.in/",
@@ -45,7 +48,7 @@ const Projectspages = () => {
         <div className="w-full">
           <div className="flex flex-col md:flex-row px-10 gap-5">
             {config.projects.map((project) => (
-              <div className="relative">
+              <div className="relative" key={project.id}>
                 <Image
                   className="h-[300px] w-[500px]"
                   src={project.image}
