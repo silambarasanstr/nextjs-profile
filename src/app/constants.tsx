@@ -11,23 +11,23 @@ export const SIDENAV_ITEMS: SideNavItem[] = [
   },
   {
     title: "About",
-    path: "/spinner",
+    path: "/#about",
     icon: <MdSpaceDashboard width="24" height="24" />,
   },
   {
     title: "Projects",
-    path: "/trips/allotments",
+    path: "/#projects",
     icon: <MdSpaceDashboard width="24" height="24" />,
   },
   {
     title: "Resume",
-    path: "/create-vehicles",
+    path: "/#resume",
     icon: <MdSpaceDashboard width="24" height="24" />,
   },
 
   {
     title: "Contact",
-    path: "/create-vehicles",
+    path: "/#contact",
     icon: <MdSpaceDashboard width="24" height="24" />,
   },
   

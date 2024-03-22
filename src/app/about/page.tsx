@@ -4,8 +4,8 @@ import Image from 'next/image';
 const Aboutpage = () => {
 
     const config  = {
-        line1: 'Hi, My name is Silambarasan. I am a  web developer and Designer. I built beautiful Websites with HTML , Tailwind CSS + Bootstrap',
-        line2: 'I am proficient in Frontend skills like  Axios, Tailwind CSS, SaSS, Css3 and many more.',
+        line1: 'Hi, My name is Silambarasan. I am a  web developer and Designer. I built beautiful Websites with Html, Css, Bootstrap and Javascript',
+        line2: 'I am proficient in Frontend skills like React js, TypeScript, Axios, Tailwind CSS, SaSS, Css3 and many more.',
         line3: 'I thrive in collaborative environments and enjoy working with teams to brainstorm ideas and solve complex problems. My goal is to create impactful web experiences that delight users and achieve business objectives.'
     }
 
