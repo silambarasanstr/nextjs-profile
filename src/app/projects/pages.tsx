@@ -1,7 +1,7 @@
 import React from 'react'
-import websiteImg1 from '../assets/ecommerce-websites.jpg';
-import websiteImg2 from '../assets/food-ecommerce.jpg';
-import websiteImg3 from '../assets/website-blog.jpg';
+import Poorvika from '@/app/assets/poorvika.png';
+import Biriyani from '@/app/assets/biriyani.png';
+import Geams from '@/app/assets/gems.png';
 import Image from 'next/image';
 
 const Projectspages = () => {
@@ -10,19 +10,19 @@ const Projectspages = () => {
     const config = {
         projects : [
             {
-                image: websiteImg1,
+                image: Poorvika,
                 description: 'A Ecommerce Website. Built with MERN Stack.',
-                link: 'https://github.com/jvlcode/jvlcart'
+                link: 'https://www.poorvika.com/privacy-policy'
             },
             {
-                image: websiteImg2,
-                description: 'Food Ecommerce website like Swiggy, Built with Angular & .Net',
-                link: 'https://github.com/jvlcode/food'
+                image: Biriyani,
+                description: 'Static Website.Built with HTML,CSS,JAVASCRIPT and PHP',
+                link: 'https://www.sshyderabadbiryani.com/about.php'
             },
             {
-                image: websiteImg3,
-                description: 'Basic Blog Website . Built with Next JS and MongoDB',
-                link: 'https://github.com/jvlcode/blog'
+                image: Geams,
+                description: 'Static Website.Built with HTML,CSS,JAVASCRIPT and PHP',
+                link: 'https://www.jaipurgemsnjewel.in/'
             }
         ]
     }   
